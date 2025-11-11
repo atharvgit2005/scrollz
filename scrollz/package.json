@@ -1,8 +1,26 @@
 {
   "name": "scrollz",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "A web + mobile tool that:",
+  "keywords": [
+    "nds-free",
+    "(especially",
+    "singers",
+    "+",
+    "guitarists",
+    "+",
+    "live",
+    "performers)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "key (pitch) on the fly"
+  },
+  "license": "ISC",
+  "author": "Atharv - Bhavish",
   "type": "module",
+  "main": "crolls based on BPM / tempo",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
