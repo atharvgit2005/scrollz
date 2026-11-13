@@ -1,0 +1,93 @@
+.card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-sm);
+}
+
+.card:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--border-neon);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-neon);
+}
+
+.coverArt {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    /* 1:1 aspect ratio */
+    overflow: hidden;
+    background: var(--bg-tertiary);
+}
+
+.coverArt img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+}
+
+.card:hover .coverArt img {
+    transform: scale(1.05);
+}
+
+.playOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+}
+
+.card:hover .playOverlay {
+    opacity: 1;
+}
+
+.playIcon {
+    width: 60px;
+    height: 60px;
+    color: var(--accent-neon-purple);
+    filter: drop-shadow(0 0 10px var(--accent-neon-purple));
+    transition: transform var(--transition-fast);
+}
+
+.card:hover .playIcon {
+    transform: scale(1.1);
+}
+
+.info {
+    padding: var(--spacing-md);
+}
+
+.title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 var(--spacing-xs) 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.artist {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

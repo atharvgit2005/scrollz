@@ -1,0 +1,48 @@
+{
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "coverArtUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_Bohemian_Rhapsody.png",
+    "lyrics": [
+        {
+            "time": 0,
+            "text": "Is this the real life?"
+        },
+        {
+            "time": 3.5,
+            "text": "Is this just fantasy?"
+        },
+        {
+            "time": 7,
+            "text": "Caught in a landslide"
+        },
+        {
+            "time": 10,
+            "text": "No escape from reality"
+        },
+        {
+            "time": 14,
+            "text": "Open your eyes"
+        },
+        {
+            "time": 17,
+            "text": "Look up to the skies and see"
+        },
+        {
+            "time": 22,
+            "text": "I'm just a poor boy"
+        },
+        {
+            "time": 24,
+            "text": "I need no sympathy"
+        },
+        {
+            "time": 27,
+            "text": "Because I'm easy come, easy go"
+        },
+        {
+            "time": 31,
+            "text": "Little high, little low"
+        }
+    ]
+}
